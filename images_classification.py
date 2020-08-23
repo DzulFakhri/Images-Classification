@@ -23,7 +23,7 @@ from tensorflow.keras.optimizers import RMSprop
 from google.colab import files
 from keras.preprocessing import image
 
-# mendownload datasets dari web dicoding
+# mendownload datasets
 !wget --no-check-certificate \
   https://dicodingacademy.blob.core.windows.net/picodiploma/ml_pemula_academy/rockpaperscissors.zip \
   -O /tmp/rock_paper_scissors.zip
